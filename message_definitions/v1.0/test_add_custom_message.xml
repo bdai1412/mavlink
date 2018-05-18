@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- MAVLink standard messages -->
+  <include>common.xml</include>
+  <!-- use common.xml enums -->
+  <enums/>
+  <messages>
+      <message id="500" name="TEST_ADD_MESSAGE">
+      <description>Test with mavros added message</description>
+      <field type="uint64_t" name="counter">Test counter</field>
+    </message>
+  </messages>
+</mavlink>
